@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+
+  <link type="text/css" rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="style_web.css" media="screen and (min-device-width: 640px)">
+  <script type="text/javascript" src="fonctions.js"></script>
+  <meta charset="utf-8">
+  <title>Style guide</title>
+
+</head>
+
+<body>
+
+  <section class="nav">
+
+    <div class="nav__primary">
+      <a href class="nav__primary__don"="#">FAIRE UN DON</a>
+
+      <div class="nav__primary__contact">
+        <p>
+          <img class="nav__primary__contact__image" src="img/croix.svg" alt="">
+          <a class="nav__primary__contact__texte" href="#">Contact rapide</a>
+        </p>
+      </div>
+
+    </div>
+
+    <div class="nav__secondary">
+
+      <a href="#">
+        <img class="logo" src="img/logo.png" alt="Logo Bélvédère">
+      </a>
+
+      <div id="menuToggle">
+
+        <input class="checkbox" type="checkbox" />
+
+        <span></span>
+        <span></span>
+        <span></span>
+
+        <ul id="menu">
+          <a class="menu__accueil" href="#">
+            <li>Accueil</li>
+          </a>
+          <a class="menu__services" href="#">
+            <li>Services</li>
+          </a>
+          <a class="menu__conseil" href="#">
+            <li>Espace conseil</li>
+          </a>
+          <a class="menu__rdv" href="#">
+            <li>Rendez-vous</li>
+          </a>
+          <a class="menu__contact" href="#">
+            <li>Contact</li>
+          </a>
+        </ul>
+      </div>
+
+      <div class="nav__secondary__search">
+        <input type="search" id="search" placeholder="Rechercher" name="nav__search">
+      </div>
+
+    </div>
+
+  </section>
+
+  <header>
+
+    <div class="header">
+
+      <div class="header__texte">
+        <h1 class="header__texte__titre">Bienvenue sur le site<br>du centre hospitalier<br>Belvédère</h1>
+        <h2 class="header__texte__description">Centre hospitalier situé à Mont-Saint Aignan<br> Agglomération de Rouen (76)</h2>
+      </div>
+
+    </div>
+
+    <div class="header__services">
+
+      <div class="header__services__gauche">
+
+
+        <div class="header__services__1">
+          <h2 class="texte__services__2">Vous etes une<br>future<br>maman ?</h2>
+          <img class="image__services__1" src="img/service_1.svg" alt="">
+          <div class="boutons__principal__1">
+            <a class="header__services__1__texte" href="">En savoir plus</a>
+          </div>
+        </div>
+
+        <div class="header__services__2">
+          <h2 class="texte__services__2">Vous etes<br>un(e)<br>accompagnateur(trice) ?</h2>
+          <img class="image__services__2" src="img/service_2.svg" alt="">
+          <div class="boutons__principal__2">
+            <a class="header__services__1__texte" href="">En savoir plus</a>
+          </div>
+        </div>
+
+      </div>
+      <div class="header__services__droite">
+
+        <div class="header__services__3">
+          <h2 class="texte__services__3">Vous etes un(e) patient(e)<br> en chirurgie ?</h2>
+          <img class="image__services__3" src="img/service_3.svg" alt="">
+          <div class="boutons__principal__3">
+            <a class="header__services__1__texte" href="">En savoir plus</a>
+          </div>
+        </div>
+
+        <div class="header__services__4">
+          <h2 class="texte__services__4">Vous etes un(e) patient(e)<br>en gynecologie ?</h2>
+          <img class="image__services__4" src="img/service_4.svg" alt="">
+          <div class="boutons__principal__4">
+            <a class="header__services__1__texte" href="">En savoir plus</a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </header>
+
+  <section class="presentation">
+    <img class="presentation__photo" src="img/hopital.png" alt="Hopital Belvédère">
+
+    <div class="presentation__bloc__droite">
+      <h1 class="presentation__titre">Le Centre Hospitalier</h1>
+      <p class="presentation__texte">Le Centre hospitalier du Belvédère est situé en Région Normandie, à Mont-Saint-Aignan dans la périphérie de Rouen (Seine-Maritime). C’est un hôpital public de 111 lits.</p>
+
+      <div class="boutons__presentation">
+        <a href="">En savoir plus</a>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="chiffres">
+
+    <div class="chiffres__patients">
+      <h2 class="chiffres__patients__titre">112</h2>
+      <p class="chiffres__patients__description">Patients par jour</p>
+    </div>
+    <div class="chiffres__soignants">
+      <h2 class="chiffres__soignants__titre">150</h2>
+      <p class="chiffres__soignants__description">Personnels soignants</p>
+    </div>
+    <div class="chiffres__naissances">
+      <h2 class="chiffres__naissances__titre">20</h2>
+      <p class="chiffres__naissances__description">Naissances par jour</p>
+    </div>
+    <div class="chiffres__creation">
+      <h2 class="chiffres__creation__titre">111</h2>
+      <p class="chiffres__creation__description">Nombre de lits</p>
+    </div>
+
+  </section>
+
+  <section class="actualites">
+    <h1 class="actualites__titre">Actualités</h1>
+    <p class="actualites__texte">Découvrez les actualités liées au centre hospitalier du belvédère</p>
+
+    <div class="fond__slider">
+
+      <div class="slider">
+
+        <div class="slides">
+            <a href="#">
+              <div id="slide-1" class="slide">
+                <h2 class="actualites__2__texte">Les gestes barrières au Belvédère</h2>
+            </a>
+          </div>
+          <a href="#">
+            <div id="slide-2" class="slide">
+              <h2 class="actualites__2__texte">Un vaccin développé dans l'hôpital</h2>
+          </a>
+          </div>
+          <a href="#">
+            <div id="slide-3" class="slide">
+              <h2 class="actualites__2__texte">Un service d'urgence prochainement ?</h2>
+          </a>
+          </div>
+          <a href="#">
+            <div id="slide-1" class="slide">
+              <h2 class="actualites__2__texte">Les gestes barrières au Belvédère</h2>
+          </a>
+          </div>
+          <a href="#">
+            <div id="slide-2" class="slide">
+              <h2 class="actualites__2__texte">Un vaccin développé dans l'hôpital</h2>
+          </a>
+          </div>
+          <a href="#">
+            <div id="slide-3" class="slide">
+              <h2 class="actualites__2__texte">Un service d'urgence prochainement ?</h2>
+          </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <footer>
+
+    <h2 class="presentation__titre__footer">Le Centre Hospitalier</h2>
+    <p class="presentation__texte__footer">Le Centre hospitalier du Belvédère est situé en Région Normandie, à Mont-Saint-Aignan dans la périphérie de Rouen (Seine-Maritime). C’est un hôpital public de 111 lits.</p>
+
+    <div class="footer__menu">
+
+      <div class="footer__gauche">
+
+        <a href="#">
+          <img class="icone__footer" src="img/facebook.svg" alt="">
+        </a>
+
+        <a href="#">
+          <img class="icone__footer" src="img/twitter.svg" alt="">
+        </a>
+
+        <a href="#">
+          <img class="icone__footer" src="img/linkedin.svg" alt="">
+        </a>
+
+        <a href="#">
+          <img class="icone__footer" src="img/youtube.svg" alt="">
+        </a>
+
+      </div>
+
+      <div class="footer__centre">
+
+        <h2 class="footer__services__titre">Services</h2>
+        <ul class="footer__services__liste">
+          <li class="footer__services__liste__texte">Service Maternité</li>
+          <li class="footer__services__liste__texte">Service Chirurgie</li>
+          <li class="footer__services__liste__texte">Service Gynécologie</li>
+        </ul>
+
+      </div>
+
+      <div class="footer__droite">
+
+        <h2 class="footer__services__titre">Ressources</h2>
+        <ul class="footer__services__liste">
+          <li class="footer__services__liste__texte">Actualités</li>
+          <li class="footer__services__liste__texte">Espace conseil</li>
+          <li class="footer__services__liste__texte">Vidéos</li>
+          <li class="footer__services__liste__texte">FAQS</li>
+        </ul>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
